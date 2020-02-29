@@ -40,7 +40,7 @@
 DEST_FILE="backup-$(date +%F_%R).img"
 
 ## Var for destination folder
-DEST_FOLDER="/run/media/toni/wd_data/backups/raspi/"
+DEST_FOLDER="/backup"
 
 ## Connect with ssh start to copy image of the full disk and save to local folder
 ssh pi@raspi "sudo dd if=/dev/mmcblk0 bs=4M " | dd of=$DEST_FOLDER/$DEST_FILE
