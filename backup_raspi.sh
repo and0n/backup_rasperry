@@ -2,7 +2,7 @@
 ################################################################################
 #                              Copy Backup image                               #
 #                                                                              #
-# This script connects to raspi and copy new image to local disk               #
+# This script will automate the steps for raspberry pi remote backup           #
 #                                                                              #
 #                                                                              #
 # Change History                                                               #
@@ -43,4 +43,4 @@ DEST_FILE="backup-$(date +%F_%R).img"
 DEST_FOLDER="/backup"
 
 ## Connect with ssh start to copy image of the full disk and save to local folder
-ssh pi@raspi "sudo dd if=/dev/mmcblk0 bs=4M " | dd of=$DEST_FOLDER/$DEST_FILE
+ssh USER@IP-ADDRESS-RPI "sudo dd if=/dev/mmcblk0 bs=4M " | dd of=$DEST_FOLDER/$DEST_FILE

@@ -5,13 +5,19 @@ This script will automate the steps for raspberry pi remote backup.
 ## Prerequisites
 
 - Copy SSH key to raspberry pi
+```
+ssh-copy-id -i ~/.ssh/mykey USER@IP-ADDRESS-RPI
+```
 - Create local folder /backup
+```
+sudo mkdir /backup
+```
 
 ## Quick start
 
-Clone the Github repository and navigate to folder:
+Clone the Github repository and navigate to folder backup_rasperry:
 ```
-git clone https://github.com/and0n/backup_rasperry.git
+git clone https://github.com/donkodimov/backup_rasperry.git
 cd backup_rasperry
 ```
 
