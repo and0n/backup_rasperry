@@ -17,18 +17,18 @@ sudo mkdir /backup
 
 Clone the Github repository and navigate to folder backup_rasperry:
 ```
-git clone https://github.com/donkodimov/backup_rasperry.git
+git clone https://github.com/donkodimov/backup_rasbperry.git
 cd backup_rasperry
 ```
 
 Make the script executable:
 ```
-sudo chmod +x backup_rasperry.sh
+sudo chmod +x backup_raspberry.sh
 ```
 
 Run the script:
 ```
-./backup_rasperry.sh
+./backup_raspberry.sh
 ```
 ## License
 
