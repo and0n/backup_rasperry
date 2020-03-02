@@ -9,6 +9,9 @@ This script will automate the steps for raspberry pi remote backup.
 ssh-copy-id -i ~/.ssh/mykey USER@IP-ADDRESS-RPI
 ```
 - Create local folder /backup
+```
+sudo mkdir /backup
+```
 
 ## Quick start
 
