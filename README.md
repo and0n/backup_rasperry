@@ -1,4 +1,4 @@
-# backup_rasperry
+# backup_raspberry
 
 This script will automate the steps for raspberry pi remote backup.
 
