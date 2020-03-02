@@ -23,12 +23,12 @@ cd backup_rasperry
 
 Make the script executable:
 ```
-sudo chmod +x backup_raspberry.sh
+sudo chmod +x backup_raspi.sh
 ```
 
 Run the script:
 ```
-./backup_raspberry.sh
+./backup_raspi.sh
 ```
 ## License
 
