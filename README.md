@@ -24,3 +24,6 @@ Run the script:
 ```
 ./backup_rasperry.sh
 ```
+## License
+
+The contents of this repository are covered under the [GNU General Public License](LICENSE).
