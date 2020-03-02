@@ -2,7 +2,7 @@
 ################################################################################
 #                              Copy Backup image                               #
 #                                                                              #
-# This script connects to raspi and copy new image to local disk               #
+# This script will automate the steps for raspberry pi remote backup           #
 #                                                                              #
 #                                                                              #
 # Change History                                                               #
