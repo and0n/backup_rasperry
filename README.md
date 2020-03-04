@@ -1,6 +1,6 @@
 # backup_raspberry
 
-This script will automate the steps for raspberry pi remote backup.
+This script will automate the steps for raspberry pi remote backup. 
 
 ## Prerequisites
 
@@ -8,25 +8,31 @@ This script will automate the steps for raspberry pi remote backup.
 ```
 ssh-copy-id -i ~/.ssh/mykey USER@IP-ADDRESS-RPI
 ```
-- Create local folder /backup
+- Create local folder /backup on the backup machine 
 ```
 sudo mkdir /backup
 ```
-
+- Find the block device name of the SD-card on the remote raspery pi:
+```
+ssh USER@IP-ADDRESSS_RPI
+lsblk
+```
+- Make sure you have enough free space to copy the image of the SD-card
 ## Quick start
 
-Clone the Github repository and navigate to folder backup_rasperry:
+1. Clone the Github repository to your backup machine and navigate to folder backup_rasperry:
 ```
 git clone https://github.com/donkodimov/backup_rasbperry.git
 cd backup_rasperry
 ```
+2. Replace `USER@IP-ADDRESS-RPI` and `/DEV/SDX` in `backup_raspi.sh` to match your environment.
 
-Make the script executable:
+3. Make the script executable:
 ```
 sudo chmod +x backup_raspi.sh
 ```
 
-Run the script:
+4. Run the script from the backup machine:
 ```
 ./backup_raspi.sh
 ```
