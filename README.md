@@ -1,6 +1,6 @@
 # backup_raspberry
 
-This script will automate the steps for raspberry pi remote backup. 
+This script will automate the steps for raspberry pi remote backup via `ssh` and `dd`.
 
 ## Prerequisites
 
